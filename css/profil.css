@@ -1,54 +1,130 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* bg */
 body {
-  background-color: #daf1de;
+  font-family: Arial, sans;
+  background: #163832;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.container{
-
+/* wadah */
+.container {
+  width: 1050px;
+  background: #DAF1DE ;
+  display: flex;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-/* bagian nama dan deks*/
+/* nama */
 .nama {
-  position: relative;
-  top: 80px;
-  left: 55px;
-  font-size: 20px;
-}
-.bagiandesk {
-  position: relative;
-  top: 75px;
-  left: 55px;
-}
-.deskripsi {
+  flex: 1;
+  padding: 50px;
   position: relative;
   top: 100px;
-  left: 55px;
-  width: 40vw;
-  font-size: 18px;
-  line-height: 1.6;
 }
-.tombol{
-  position: relative;
-  top: 120px;
-  left: 55px;
-  padding: 10px 20px;
-  background-color: #235347;
+.nama h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.nama h1 span {
+  color: #d4ad4e;
+}
+.nama p {
+  margin-top: 10px;
+  line-height: 1.5;
+  max-width: 350px;
+}
+/* nama akhir */
+/* bagian bawah nama */
+.tag {
+  background: #d4ad4e;
   color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+  padding: 8px 15px;
+  display: inline-block;
+  margin: 15px 0;
+  font-weight: bold;
+  border-radius: 4px;
 }
-/* bagian foto */
-.foto{
-  width: 50vw;
-  height: 100vh;
-  background-image: url("../img/foto.jpg");
-  background-position: center;
-  background-size: cover;      
-  background-repeat: no-repeat; 
-  position: absolute;
-  right: 0;
-  top: 0;
+/* bagian bawah nama akhir */
+/* tombol */
+.btn {
+  margin-top: 25px;
+  display: inline-block;
+  background: #d4ad4e;
+  color: white;
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transform: 0,03s;
+  -webkit-transform: 0,03s;
+  -moz-transform: 0,03s;
+  -ms-transform: 0,03s;
+  -o-transform: 0,03s;
+}
+.btn:hover {
+  background: #366b61;
+  color: #d4ad4e;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+/* tombol akhir */
+/* foto */
+.foto {
+  flex: 1;
+  position: relative;
+}
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter:brightness(80%);
+  -webkit-filter:brightness(80%);
+  border-left:  rgb(21, 133, 17) solid 2px;
+}
+/* foto akhir */
+/* icon sosial media */
+.icons {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.icons div {
+  background: #d4ad4e;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px
+}
+.tombol {
+  position: relative;
+  top: 10px;
+  left: 12px;
+  font-size: 17px;
+}
+.tomboldua {
+  position: relative;
+  top: 10px;
+  left: 11px;
+  font-size: 17px;
+}
+.icons div:hover {
+  background: #366b61;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  color: #d4ad4e;
+}
+/* icon sosial media akhir */
+.garis {
+  border-left: 10px dashed #000000;
+  width: 2px;
 }
