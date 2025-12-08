@@ -10,7 +10,7 @@ body {
 /* wadah */
 .container {
   width: 1050px;
-  background: #DAF1DE ;
+  background: #daf1de;
   display: flex;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -55,11 +55,11 @@ body {
   font-weight: bold;
   border-radius: 25px;
   text-decoration: none;
-  transform: 0,03s;
-  -webkit-transform: 0,03s;
-  -moz-transform: 0,03s;
-  -ms-transform: 0,03s;
-  -o-transform: 0,03s;
+  transform: 0, 03s;
+  -webkit-transform: 0, 03s;
+  -moz-transform: 0, 03s;
+  -ms-transform: 0, 03s;
+  -o-transform: 0, 03s;
 }
 .btn:hover {
   background: #366b61;
@@ -80,9 +80,9 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter:brightness(80%);
-  -webkit-filter:brightness(80%);
-  border-left:  rgb(21, 133, 17) solid 2px;
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
+  border-left: rgb(21, 133, 17) solid 2px;
 }
 /* foto akhir */
 /* icon sosial media */
@@ -100,18 +100,36 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 5px;
-  box-shadow: 0px 5px 10px
+  box-shadow: 0px 5px 10px;
 }
 .tombol {
   position: relative;
   top: 10px;
-  left: 12px;
+  left: 10px;
   font-size: 17px;
 }
 .tomboldua {
   position: relative;
   top: 10px;
-  left: 11px;
+  left: 12px;
+  font-size: 17px;
+}
+.tomboltiga {
+  position: relative;
+  top: 10px;
+  left: 12px;
+  font-size: 17px;
+}
+.tombolempat {
+  position: relative;
+  top: 10px;
+  left: 12px;
+  font-size: 17px;
+}
+.tombollima {
+  position: relative;
+  top: 10px;
+  left: 12px;
   font-size: 17px;
 }
 .icons div:hover {
