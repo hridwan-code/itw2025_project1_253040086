@@ -1,32 +1,43 @@
 .containerdua{
     width: 1050px;
-    background: #daf1de;
+    height: 85px;
+    background: #d4ad4e;
     display: flex;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    margin-top: 100px;
+    margin-top: 125px;
 }
 .fotokedua img{
     width: 300px;
     height: auto;
+    position: relative;
+    top: -25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .namadua h2{
     font-size: 50px;
     font-weight: 900;
     position: relative;
-    top: -25px;
+    top: -75px;
     left: 40px;
+    color: white;
 }
 .namadua h3{
     font-size: 20px;
     font-weight: bold;
     position: relative;
-    top: 35px;
-    left: 92px;
+    top: -13px;
+    left: 42px;
+    color: rgb(0, 0, 0)
 }
 .namadua p{
     line-height: 1.;
     max-width: 600px;
     position: relative;
-    top: -50px;
+    top: -90px;
     left: 40px;
+    color: white;
 }

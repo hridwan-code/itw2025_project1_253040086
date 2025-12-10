@@ -10,24 +10,26 @@ body {
 /* wadah */
 .containersatu {
   width: 1050px;
+  height: 600px;
   background: #daf1de;
   display: flex;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  margin-top: 500px;
+  margin-top: 250px;
 }
 /* nama */
 .nama {
   flex: 1;
   padding: 50px;
   position: relative;
-  top: 100px;
+  top: -100px;
 }
 .nama h1 {
   font-size: 65px;
   font-weight: 900;
   position: relative;
-  top: 15px;
-  left: 35px
+  top: 50px;
+  left: 35px;
+
 }
 .nama h1 span {
   color: #d4ad4e;
@@ -48,10 +50,14 @@ body {
   margin: 15px 0;
   font-weight: bold;
   border-radius: 4px;
+  position: relative;
+  left: 350px;
+  z-index: 99;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 10px;
 }
 /* bagian bawah nama akhir */
 /* tombol */
-.btn {
+.about {
   margin-top: 25px;
   display: inline-block;
   background: #d4ad4e;
@@ -65,6 +71,11 @@ body {
   -moz-transform: 0, 03s;
   -ms-transform: 0, 03s;
   -o-transform: 0, 03s;
+  position: relative;
+  top: -15px;
+  left: 400px;
+  z-index: 99;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 10px;
 }
 .btn:hover {
   background: #366b61;
@@ -83,7 +94,7 @@ body {
 }
 .foto img {
   width: 500px;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   filter: brightness(80%);
   -webkit-filter: brightness(80%);
