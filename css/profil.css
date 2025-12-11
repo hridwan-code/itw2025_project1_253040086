@@ -1,19 +1,10 @@
-/* bg */
-body {
-  font-family: Arial, sans;
-  background: #163832;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 /* wadah */
 .containersatu {
   width: 1050px;
   height: 600px;
-  background: #daf1de;
+  background: #235347;
   display: flex;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 30px rgb(8, 78, 29);
   margin-top: 250px;
 }
 /* nama */

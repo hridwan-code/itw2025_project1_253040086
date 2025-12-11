@@ -1,4 +1,26 @@
 .containertiga{
     width: 1050px;
     height: 85px;
+    margin-top: 350px;
+    background-color: #8EB69B;
+}
+.website h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.website img{
+    width: 600px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    position: relative;
+    left: 225px;
+    top: -30px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 10px;   
 }
