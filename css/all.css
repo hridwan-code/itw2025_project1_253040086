@@ -2,11 +2,11 @@
 body {
     font-family: Arial, sans;
     background: #eaeaea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
-.container{
-    margin-top: 650px;
+.container {
+    width: 80%;
+    max-width: 12000px;
+    margin: 0 auto; 
 }

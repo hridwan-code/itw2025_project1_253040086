@@ -4,15 +4,15 @@
   height: 600px;
   background: #235347;
   display: flex;
-  box-shadow: 0 5px 30px rgb(8, 78, 29);
-  margin-top: 250px;
+  box-shadow: 0 10px 10px rgb(8, 78, 29);
+  margin-top: 150px;
 }
 /* nama */
 .nama {
   flex: 1;
   padding: 50px;
   position: relative;
-  top: -100px;
+  top: -30px;
 }
 .nama h1 {
   font-size: 65px;
@@ -20,7 +20,7 @@
   position: relative;
   top: 50px;
   left: 35px;
-
+  color: white;
 }
 .nama h1 span {
   color: #d4ad4e;
@@ -34,40 +34,22 @@
 /* nama akhir */
 /* bagian bawah nama */
 .tag {
-  background: #d4ad4e;
+  width: 500px;
+  padding: 10px 15px;
   color: white;
-  padding: 8px 15px;
-  display: inline-block;
   margin: 15px 0;
   font-weight: bold;
   border-radius: 4px;
   position: relative;
-  left: 350px;
+  left: 35px;
   z-index: 99;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 10px;
+}
+.nama h2 {
+  font-size: 50px;
 }
 /* bagian bawah nama akhir */
 /* tombol */
-.about {
-  margin-top: 25px;
-  display: inline-block;
-  background: #d4ad4e;
-  color: white;
-  padding: 12px 25px;
-  font-weight: bold;
-  border-radius: 25px;
-  text-decoration: none;
-  transform: 0, 03s;
-  -webkit-transform: 0, 03s;
-  -moz-transform: 0, 03s;
-  -ms-transform: 0, 03s;
-  -o-transform: 0, 03s;
-  position: relative;
-  top: -15px;
-  left: 400px;
-  z-index: 99;
-  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 10px;
-}
 .btn:hover {
   background: #366b61;
   color: #d4ad4e;
