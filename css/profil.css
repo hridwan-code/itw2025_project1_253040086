@@ -4,7 +4,7 @@
   height: 600px;
   background: #235347;
   display: flex;
-  justify-content: center;
+  justify-content: cent;
   align-items: center;
   box-shadow: 0 10px 10px rgb(8, 78, 29);
   margin-top: 150px;
@@ -50,26 +50,17 @@
   font-size: 50px;
 }
 /* bagian bawah nama akhir */
-/* tombol */
-.btn:hover {
-  background: #366b61;
-  color: #d4ad4e;
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-}
-/* tombol akhir */
 /* foto */
 .foto {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 .foto img {
   width: 500px;
   height: 600px;
   position: relative;
-  left: 5px;
+  left: 0;
   object-fit: cover;
   filter: brightness(80%);
   -webkit-filter: brightness(80%);
@@ -85,6 +76,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  z-index: 99;
 }
 .icons div {
   background: #d4ad4e;

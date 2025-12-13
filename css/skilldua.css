@@ -1,9 +1,7 @@
-.containertiga{
-    width: 100%;
-    height: 85px;
-    margin-top: 150px;
+.containerlima{
+    margin-top: 250px;
 }
-.website h2{
+.textdua h2{
     font-size: 40px;
     font-weight: 900;
     text-align: center;
@@ -11,31 +9,25 @@
     position: relative;
     top: 40px;
 }
-.gambar {
+.skilldua{
     display: flex;
     justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
-.gambar img{
-    width: 500px;
+.skilldua img{
+    width: 300px;
     height: auto;
     margin-top: 100px;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;
+    border-radius: 30px;
     box-shadow:  0 10px 10px rgb(8, 78, 29);
+    align-items: center;
     filter: brightness(0.6);
     transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     -webkit-filter: brightness(0.6);
 }
-.gambar img:hover {
+.skilldua img:hover {
     filter: brightness(1.1);
     transform: translateY(-8px) scale(1.03);
     box-shadow: 0 20px 40px rgb(8, 78, 29);
-}
-.projek{
-    width: 100%;
-    height: 500px;
-    background-color: #235347
 }
