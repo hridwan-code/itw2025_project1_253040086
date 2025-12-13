@@ -4,9 +4,10 @@
   height: 600px;
   background: #235347;
   display: flex;
+  justify-content: center;
+  align-items: center;
   box-shadow: 0 10px 10px rgb(8, 78, 29);
   margin-top: 150px;
-  position: relative;
 }
 /* nama */
 .nama {

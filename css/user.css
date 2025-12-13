@@ -5,6 +5,11 @@
     display: flex;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     margin-top: 325px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 .bg{
     width: 100%;

@@ -1,12 +1,17 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* bg */
 body {
     font-family: Arial, sans;
     background: #f2f2f2;
-    margin: 0;
-    padding: 0;
 }
 .container {
-    width: 80%;
-    max-width: 12000px;
-    margin: 0 auto; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
 }
