@@ -1,12 +1,10 @@
 /* wadah */
 .containersatu {
-  width: 1050px;
-  height: 600px;
-  background: #235347;
+  width: 100%;
+  height: auto ;
   display: flex;
-  justify-content: cent;
+  justify-content: center;
   align-items: center;
-  box-shadow: 0 10px 10px rgb(8, 78, 29);
   margin-top: 150px;
 }
 /* nama */
@@ -24,9 +22,10 @@
   left: 35px;
   color: white;
 }
-.nama h1 span {
+.namagua {
   color: #d4ad4e;
-  font-size: 85px;
+  font-size: 95px;
+  font-family: 'Inter', sans-serif;
 }
 .nama p {
   margin-top: 10px;
@@ -57,14 +56,18 @@
   justify-content: center;
 }
 .foto img {
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   position: relative;
-  left: 0;
+  left: -50px;
   object-fit: cover;
   filter: brightness(80%);
   -webkit-filter: brightness(80%);
-  border-left: rgb(15, 82, 12) solid 2px;
+  border-radius: 2000px;
+  -webkit-border-radius: 2000px;
+  -moz-border-radius: 2000px;
+  -ms-border-radius: 2000px;
+  -o-border-radius: 2000px;
 }
 /* foto akhir */
 /* icon sosial media */
@@ -77,13 +80,12 @@
   flex-direction: column;
   gap: 25px;
   z-index: 99;
+  background: transparent;
 }
 .icons div {
-  background: #d4ad4e;
   width: 40px;
   height: 40px;
   border-radius: 5px;
-  box-shadow: 0px 5px 10px;
 }
 .tombol {
   position: relative;
@@ -116,7 +118,7 @@
   font-size: 17px;
 }
 .icons div:hover {
-  background: #366b61;
+  background: transparent;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);

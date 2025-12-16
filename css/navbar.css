@@ -7,7 +7,7 @@
 .navbar {
   width: 100%;
   padding: 15px 30px;
-  background: #163832;
+  background: transparent;
   color: white;
   display: flex;
   justify-content: space-between;
