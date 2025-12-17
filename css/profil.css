@@ -1,3 +1,7 @@
+/* nama utama */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+/* buat desk */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 /* wadah */
 .containersatu {
   width: 100%;
@@ -15,38 +19,35 @@
   top: -30px;
 }
 .nama h1 {
-  font-size: 65px;
+  font-size: 85px;
   font-weight: 900;
   position: relative;
-  top: 50px;
+  top: 10px;
   left: 35px;
-  color: white;
+  color:  #f8fafc;
+  font-family: rowdies, sans-serif;
 }
-.namagua {
-  color: #d4ad4e;
-  font-size: 95px;
-  font-family: 'Inter', sans-serif;
-}
-.nama p {
-  margin-top: 10px;
-  line-height: 1.5;
-  max-width: 350px;
+.nama h2{
+  font-size: 50px;
+  font-weight: 400;
+  position: relative;
+  top: 20px;
+  left: 35px;
+  color:  #f8fafc;
+  font-family: merriweather, serif;
 }
 /* nama akhir */
 /* bagian bawah nama */
-.tag {
-  width: 600px;
-  padding: 10px 15px;
+.tag  {
+  width: 900px;
   color: rgb(255, 250, 250);
   margin: 15px 0;
-  font-weight: bold;
-  border-radius: 4px;
   position: absolute;
   z-index: 99;
-  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 10px;
 }
-.nama h2 {
-  font-size: 50px;
+.nama .tag h2 {
+  font-size: 40px;
+  font-family: merriweather, serif;
 }
 /* bagian bawah nama akhir */
 /* foto */
@@ -59,15 +60,11 @@
   width: 400px;
   height: 400px;
   position: relative;
-  left: -50px;
+  left: -10px;
   object-fit: cover;
   filter: brightness(80%);
-  -webkit-filter: brightness(80%);
   border-radius: 2000px;
-  -webkit-border-radius: 2000px;
-  -moz-border-radius: 2000px;
-  -ms-border-radius: 2000px;
-  -o-border-radius: 2000px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 /* foto akhir */
 /* icon sosial media */
@@ -81,6 +78,7 @@
   gap: 25px;
   z-index: 99;
   background: transparent;
+  color: white
 }
 .icons div {
   width: 40px;

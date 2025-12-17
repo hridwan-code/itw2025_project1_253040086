@@ -2,6 +2,8 @@
     width: 1050px;
     height: 85px;
     background: #d4ad4e;
+    position: relative;
+    left: 120px;
     display: flex;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     margin-top: 325px;
@@ -16,44 +18,34 @@
     height: 350px;
     position: relative;
     top: -50px;
-    background: #235347;
     padding-bottom: 50px;
-    box-shadow: 0 10px 10px rgb(8, 78, 29);
 }
 .fotokedua img{
     width: 300px;
     height: auto;
     position: relative;
     top: -25px;
-    left: -30px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    left: 45px;
+    border-radius: 2000px;
+    -webkit-border-radius: 2000px;
+    -moz-border-radius: 2000px;
+    -ms-border-radius: 2000px;
+    -o-border-radius: 2000px;
 }
 .namadua h2{
     font-size: 50px;
     font-weight: 900;
     position: relative;
-    top: -9px;
+    top: 9px;
     left: 40px;
     color: white;
-}
-.namadua h3{
-    font-size: 20px;
-    font-weight: bold;
-    position: relative;
-    top: 11px;
-    left: 42px;
-    color: rgb(0, 0, 0)
 }
 .namadua p{
     line-height: 1.;
     max-width: 600px;
     font-size: 20px;
     position: relative;
-    top: 10px;
+    top: 50px;
     left: 40px;
     color: white;
 }

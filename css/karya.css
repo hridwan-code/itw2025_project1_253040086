@@ -37,5 +37,13 @@
 .projek{
     width: 100%;
     height: 500px;
-    background-color: #235347
+}
+.deskripsi p{
+    font-size: 15px;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    color: #f8fafc;
+    line-height: 1.6;
+    font-family: merriweather, serif;
 }
