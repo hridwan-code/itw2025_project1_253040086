@@ -33,7 +33,7 @@
   position: relative;
   top: 20px;
   left: 35px;
-  color:  #f8fafc;
+  color:  #d4ad4e;
   font-family: merriweather, serif;
 }
 /* nama akhir */
@@ -110,6 +110,12 @@
   font-size: 17px;
 }
 .tombollima {
+  position: relative;
+  top: 10px;
+  left: 12px;
+  font-size: 17px;
+}
+.tombolenam {
   position: relative;
   top: 10px;
   left: 12px;

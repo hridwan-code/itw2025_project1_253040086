@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/skill.css" />
     <link rel="stylesheet" href="css/skilldua.css" />
+    <link rel="stylesheet" href="css/kontak.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -32,6 +33,7 @@
     <div class="container">
       <!-- profil -->
       <div class="containersatu">
+              <div id="home"></div> 
         <div class="nama">
           <div class="namafix">
           <h2>I'M </h2>
@@ -43,10 +45,14 @@
           <img src="img/fotofix.jpg" alt="foto" />
           <div class="icons">
             <div>
+              <a href="#home">
               <i class="fa-solid fa-house tombol"></i>
+              </a>
             </div>
             <div>
+              <a href="#user">
               <i class="fa-solid fa-user tomboldua"></i>
+              </a>
             </div>
             <div>
               <a href="#projek">
@@ -54,21 +60,31 @@
               </a>  
             </div>
             <div>
+              <a href="#skill">
               <i class="fa-solid fa-tools tombolempat"></i>
+              </a>
+            </div>
+            <div>
+              <a href="#skilldua">
+            <i class="fa-solid fa-star tombollima"></i>
+            </a>
             </div>
             <div>
               <a href="#contact">
-              <i class="fa-solid fa-envelope tombollima"></i>
+              <i class="fa-solid fa-envelope tombolenam"></i>
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div id="projek"></div> 
-      <div id="contact"></div> 
+
+
+
+      
       <!-- profil akhir -->
       <!-- user -->
       <div class="bg">
+              <div id="user"></div> 
         <div class="containerdua">
           <div class="fotokedua">
             <img src="img/fotokedua.jpg" alt="fotokedua" />
@@ -84,6 +100,7 @@
       <!-- user akhir -->
       <!-- karya -->
       <div class="containertiga">
+              <div id="projek"></div>  
         <div class="projek">
           <div class="website">
             <h2>Web Development Projects</h2>
@@ -99,12 +116,13 @@
       <!-- karya akhir -->
       <!-- skill -->
       <div class="containerempat">
+              <div id="skill"></div>
         <div class="skill">
           <img src="img/pixelsatu.jpg" alt="pixelsatu">
           <img src="img/pixeldua.jpg" alt="pixeldua">
         </div>
         <div class="title">
-          <h1>Pixel Creations</h1>
+          <h1>Creations</h1>
             <h2>Pixel Art</h2>
             <p> Saya mengerjakan dua bidang utama yang saling melengkapi: pengembangan website
             dan pembuatan pixel art. Di sisi web development, saya fokus membangun tampilan
@@ -115,7 +133,9 @@
       <!-- skill akhir -->
       <!-- skilldua -->
       <div class="containerlima">
-        <div class="textdua"><h2>Realistic Illustrations</h2></div>
+              <div id="skilldua"></div>
+        <div 
+        class="textdua"><h2>Realistic Illustrations</h2></div>
         <div class="skilldua">
           <img src="img/gambarsatu.jpg" alt="realistisatu">
           <img src="img/gambardua.jpg" alt="realistidua">
@@ -123,7 +143,42 @@
           <img src="img/gambarempat.jpg" alt="realistieempat">
           <img src="img/gambarlima.jpg" alt="realistilima">
         </div>
+        <div class="texttiga">
+        <p>Selain menggunakan media digital, saya tetap menerapkan proses menggambar tradisional sebagai dasar pengembangan visual. Pendekatan ini membantu melatih kemampuan observasi, pemahaman bentuk, serta kontrol nilai gelap-terang, yang menjadi fondasi penting dalam menghasilkan karya desain digital yang lebih akurat dan berkarakter.</p>
+        </div>
       <!-- skilldua akhir -->
+      <!-- kontak -->
+      <section class="contact-section" id="contact">
+  <div class="contact-container">
+
+    <div class="contact-text">
+      <h2>Get In Touch</h2>
+      <p>
+        Tertarik untuk berdiskusi, bekerja sama, atau sekadar bertukar ide?
+        Jangan ragu untuk menghubungi saya melalui kontak di bawah ini.
+      </p>
+    </div>
+
+    <div class="contact-cards">
+      <a href="mailto:emailkamu@gmail.com" class="contact-card">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+
+      <a href="https://instagram.com/username" target="_blank" class="contact-card">
+        <i class="fa-brands fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
+
+      <a href="https://tiktok.com/@username" target="_blank" class="contact-card">
+        <i class="fa-brands fa-tiktok"></i>
+        <span>TikTok</span>
+      </a>
+    </div>
+    <div id="contact"></div>
+  </div>
+</section>
+      <!-- kontak akhir -->
     </div>
   </body>
 </html>

@@ -3,7 +3,11 @@ body {
     background: #053107;
     background: linear-gradient( to right, #042b06, #0a5c0a)
 } 
-.container {
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 100px;
 }
 /* buat warna section */
 a {
