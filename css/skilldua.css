@@ -1,33 +1,33 @@
-.containerlima{
-    margin-top: 250px;
+.containerlima {
+  margin-top: 250px;
 }
-.textdua h2{
-    font-size: 40px;
-    font-weight: 900;
-    text-align: center;
-    color: #d4ad4e;
-    position: relative;
-    top: 40px;
+.textdua h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #d4ad4e;
+  position: relative;
+  top: 40px;
 }
-.skilldua{
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    flex-wrap: wrap;
+.skilldua {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
-.skilldua img{
-    width: 300px;
-    height: auto;
-    margin-top: 100px;
-    border-radius: 30px;
-    box-shadow:  0 10px 10px rgb(8, 78, 29);
-    align-items: center;
-    filter: brightness(0.6);
-    transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    -webkit-filter: brightness(0.6);
+.skilldua img {
+  width: 300px;
+  height: auto;
+  margin-top: 100px;
+  border-radius: 30px;
+  box-shadow: 0 10px 10px rgb(8, 78, 29);
+  align-items: center;
+  filter: brightness(0.6);
+  transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  -webkit-filter: brightness(0.6);
 }
 .skilldua img:hover {
-    filter: brightness(1.1);
-    transform: translateY(-8px) scale(1.03);
-    box-shadow: 0 20px 40px rgb(8, 78, 29);
+  filter: brightness(1.1);
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 20px 40px rgb(8, 78, 29);
 }
