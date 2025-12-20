@@ -1,19 +1,24 @@
- /* bg */
+/* bg */
 body {
-    background: #053107;
-    background: linear-gradient( to right, #042b06, #0a5c0a)
-} 
+  background: #053107;
+  background: linear-gradient(to right, #042b06, #0a5c0a);
+}
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 section {
   scroll-margin-top: 100px;
+  min-height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 /* buat warna section */
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
-a, i {
-    pointer-events: auto !important;
+a,
+i {
+  pointer-events: auto !important;
 }
