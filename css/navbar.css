@@ -53,32 +53,3 @@
 .nav-links a:hover {
   color: #1e90ff;
 }
-
-/* Mobile */
-.menu-toggle {
-  display: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-    background: #111;
-    flex-direction: column;
-    text-align: right;
-    padding: 20px;
-    display: none;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}

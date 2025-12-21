@@ -1,31 +1,19 @@
- @media (max-width: 768px) {
+ @media (max-width: 576px) {
 
-  .container {
+  .containersatu {
     padding: 80px 20px;
     text-align: left;
   }
-
-  .container h1 {
-    font-size: 28px;
-    line-height: 1.2;
+  .foto{
+    align-items: center;
   }
-
-  .container h2 {
-    font-size: 16px;
+  .nama{
+    font-size: small;
   }
-
-  .container-img {
-    position: relative;   /* JANGAN absolute di HP */
-    width: 100%;
-    max-width: 300px;
-    margin-top: 40px;
+  .container{
+    padding: 1000px;
   }
-
-  .container-bg {
-    width: 220px;
-    height: 220px;
-    right: -80px;
-    bottom: -80px;
+  body{
+    background-repeat: repeat;
   }
-
 }
