@@ -1,19 +1,167 @@
- @media (max-width: 576px) {
+ /* ===================== */
+/* MODE HP / MOBILE */
+/* ===================== */
+@media (max-width: 768px) {
 
+  /* GLOBAL RESET */
+  body {
+    overflow-x: hidden;
+  }
+
+  .container,
+  .containersatu,
+  .containerdua,
+  .containertiga,
+  .containerempat,
+  .containerlima {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  /* ===== HERO / PROFIL ===== */
   .containersatu {
-    padding: 80px 20px;
-    text-align: left;
+    flex-direction: column;
+    margin-top: 120px;
+    text-align: center;
   }
-  .foto{
-    align-items: center;
+
+  .nama {
+    padding: 0;
+    top: 0;
   }
-  .nama{
-    font-size: small;
+
+  .nama h1 {
+    font-size: 38px;
+    left: 0;
   }
-  .container{
-    padding: 1000px;
+
+  .nama h2 {
+    font-size: 22px;
+    left: 0;
   }
-  body{
-    background-repeat: repeat;
+
+  .tag {
+    width: 100%;
+    position: static;
+    margin-top: 10px;
   }
+
+  .tag h2 {
+    font-size: 16px;
+  }
+
+  .foto img {
+    width: 220px;
+    height: 220px;
+    left: 0;
+    margin-top: 30px;
+  }
+
+  /* ICON SAMPING */
+  .icons {
+    position: fixed;
+    right: 10px;
+    gap: 15px;
+  }
+
+  /* ===== USER SECTION ===== */
+  .bg {
+    height: auto;
+    top: 0;
+  }
+
+  .containerdua {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    left: 0;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .fotokedua img {
+    width: 180px;
+    left: 0;
+    top: 0;
+    margin: auto;
+  }
+
+  .namadua h2 {
+    font-size: 26px;
+    left: 0;
+    text-align: center;
+  }
+
+  .namadua p {
+    font-size: 14px;
+    left: 0;
+    top: 10px;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  /* ===== PROJECT ===== */
+  .containertiga {
+    height: auto;
+    margin-top: 100px;
+  }
+
+  .website h2 {
+    font-size: 26px;
+  }
+
+  .gambar img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 40px;
+  }
+
+  .deskripsi p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  /* ===== SKILL PIXEL ===== */
+  .containerempat {
+    margin-top: 150px;
+  }
+
+  .skill {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    justify-items: center;
+  }
+
+  .title {
+    width: 100%;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .title h1,
+  .title h2,
+  .title p {
+    left: 0;
+    top: 0;
+  }
+
+  /* ===== SKILL REALIS ===== */
+  .skilldua img {
+    width: 140px;
+    margin-top: 40px;
+  }
+
+  .texttiga {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  /* ===== CONTACT ===== */
+  .contact-container {
+    padding: 40px 20px;
+  }
+
 }
