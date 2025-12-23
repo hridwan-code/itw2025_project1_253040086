@@ -27,17 +27,13 @@
     top: -25px;
     left: 45px;
     border-radius: 2000px;
-    -webkit-border-radius: 2000px;
-    -moz-border-radius: 2000px;
-    -ms-border-radius: 2000px;
-    -o-border-radius: 2000px;
-      box-shadow: 0 0px 10px #d4ad4e;
+    box-shadow: 0 0px 10px #d4ad4e;
 }
 .namadua h2{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 900;
     position: relative;
-    top: 9px;
+    top: 23px;
     left: 40px;
     color: white;
     font-family: rowdies, serif;
@@ -47,7 +43,7 @@
     max-width: 600px;
     font-size: 20px;
     position: relative;
-    top: 50px;
+    top: 75px;
     left: 80px;
     color: white;
 }
