@@ -1,0 +1,9 @@
+[data-animate] {
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+.animate-show {
+  opacity: 1;
+  transform: translate(0) scale(1);
+}

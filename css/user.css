@@ -31,6 +31,7 @@
     -moz-border-radius: 2000px;
     -ms-border-radius: 2000px;
     -o-border-radius: 2000px;
+      box-shadow: 0 0px 10px #d4ad4e;
 }
 .namadua h2{
     font-size: 50px;
