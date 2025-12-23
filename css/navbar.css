@@ -10,7 +10,7 @@
 .navbar {
   width: 100%;
   padding: 15px 30px;
-  background: rgba(6, 56, 4, 0.5);
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
   color: white;
   display: flex;
@@ -51,5 +51,5 @@
 }
 
 .nav-links a:hover {
-  color: #1e90ff;
+  color: #067aee;
 }

@@ -22,6 +22,7 @@
   position: relative;
   top: -150px;
   left: 25px;
+    font-family: rowdies, serif;
 }
 .title h2 {
   font-size: 25px;
@@ -41,12 +42,12 @@
   width: 200px;
   height: auto;
   border-radius: 30px;
-  box-shadow: 0 10px 10px rgb(8, 78, 29);
+  box-shadow: 0 5px 10px #d4ad4e;
   filter: brightness(0.6);
   transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 .skill img:hover {
   filter: brightness(1.1);
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 20px 40px rgb(8, 78, 29);
+  box-shadow: 0 10px 40px #d4ad4e;
 }

@@ -1,5 +1,5 @@
 .containerlima {
-  margin-top: 2 50px;
+  margin-top: 250px;
 }
 .textdua h2 {
   font-size: 40px;
@@ -8,6 +8,7 @@
   color: #d4ad4e;
   position: relative;
   top: 40px;
+  font-family: rowdies, serif;
 }
 .texttiga{
   position: relative;
@@ -32,7 +33,7 @@
   margin-top: 100px;
   border-radius: 30px;
   margin-bottom: 100px;
-  box-shadow: 0 10px 10px rgb(8, 78, 29);
+  box-shadow: 0 5px 10px #d4ad4e;
   align-items: center;
   filter: brightness(0.6);
   transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -41,5 +42,5 @@
 .skilldua img:hover {
   filter: brightness(1.1);
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 20px 40px rgb(8, 78, 29);
+  box-shadow: 0 20px 40px #d4ad4e;
 }
