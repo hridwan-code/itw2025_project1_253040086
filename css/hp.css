@@ -1,6 +1,4 @@
-  @media (max-width: 768px) {
-
-  
+@media (max-width: 768px) {
   .container,
   .containersatu,
   .containerdua,
@@ -13,12 +11,12 @@
     padding: 0 16px;
   }
 
-  /* ===== hero / profil ===== */
+  /* home */
   .containersatu {
     flex-direction: column;
     margin-top: 120px;
     text-align: center;
-  } 
+  }
   .nama {
     padding: 0;
     top: 0;
@@ -26,7 +24,7 @@
   .nama h1 {
     font-size: 25px;
     left: 0;
-    margin-top: 10px
+    margin-top: 10px;
   }
   .nama h2 {
     font-size: 20px;
@@ -48,14 +46,14 @@
     margin-top: 30px;
   }
 
-  /* ICON SAMPING */
+  /* icon kanan */
   .icons {
     position: fixed;
     right: 10px;
     gap: 15px;
   }
 
-  /* ===== user ===== */
+  /* user */
   .bg {
     height: auto;
     top: 0;
@@ -72,8 +70,8 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-}
-  .fotokedua{
+  }
+  .fotokedua {
     align-self: center;
   }
   .fotokedua img {
@@ -95,7 +93,7 @@
     max-width: 100%;
   }
 
-  /* ===== karya ===== */
+  /* karya */
   .containertiga {
     height: auto;
     margin-top: 300px;
@@ -103,7 +101,7 @@
   .website h2 {
     font-size: 26px;
     display: absolute;
-    top: 20px
+    top: 20px;
   }
   .gambar img {
     width: 100%;
@@ -115,7 +113,7 @@
     padding: 0 10px;
   }
 
-  /* ===== skill ===== */
+  /* skill */
   .containerempat {
     margin-top: 150px;
   }
@@ -130,13 +128,17 @@
     text-align: center;
   }
   .title h1,
-  .title h2,
+  .title h2 {
+    display: fixed;
+    left: 0;
+    top: 0;
+  }
   .title p {
     display: fixed;
     left: 0;
     top: 0;
   }
-  /* ===== skilldua ===== */
+  /* skilldua */
   .skilldua img {
     width: 140px;
     margin-top: 40px;
@@ -145,7 +147,7 @@
     font-size: 13px;
     padding: 0 10px;
   }
-  /* ===== kontak ===== */
+  /* kontak */
   .contact-container {
     padding: 40px 20px;
     margin-top: -90px;

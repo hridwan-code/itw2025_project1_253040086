@@ -1,0 +1,137 @@
+@media (min-width: 1024px) {
+  
+  /* keseluruhan */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  * {
+    left: auto !important;
+    right: auto !important;
+  }
+
+  /*  icons kiri*/
+  .icons {
+    display: none; 
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* home */
+  .containersatu {
+    margin-top: 130px;
+    padding: 0 40px;
+  }
+
+  .nama h1 {
+    font-size: 56px;
+  }
+
+  .nama h2 {
+    font-size: 30px;
+  }
+
+  .tag h2 {
+    font-size: 20px;
+  }
+
+  .foto img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* user */
+  .containerdua {
+    width: 90%;
+    margin: 220px auto 0;
+    height: auto;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 30px;
+  }
+
+  .fotokedua img {
+    width: 220px;
+  }
+
+  .namadua h2 {
+    font-size: 34px;
+  }
+
+  .namadua p {
+    font-size: 16px;
+    max-width: 450px;
+  }
+
+  /* karya*/
+  .containertiga {
+    height: auto;
+    margin-top: 140px;
+  }
+
+  .gambar img {
+    width: 420px;
+    max-width: 100%;
+  }
+
+  .deskripsi p {
+    font-size: 15px;
+    padding: 0 30px;
+  }
+
+  /* skill */
+  .containerempat {
+    margin-top: 480px;
+  }
+
+  .skill {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0;
+    justify-items: center;
+  }
+
+  .skill img {
+    width: 180px;
+  }
+
+  .title {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 36px;
+  }
+
+  .title h2 {
+    font-size: 22px;
+  }
+
+  .title p {
+    display: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  /* skilldua */
+  .skilldua img {
+    width: 160px;
+  }
+
+  .texttiga {
+    font-size: 14px;
+    padding: 0 40px;
+  }
+
+  /* kontak */
+  .contact-container {
+    padding: 60px 50px;
+  }
+}

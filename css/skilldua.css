@@ -40,7 +40,8 @@
   -webkit-filter: brightness(0.6);
 }
 .skilldua img:hover {
-  filter: brightness(1.1);
+  filter: brightness(0.8);
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 20px 40px #d4ad4e;
+  box-shadow: 0 10px 10px #d4ad4e;
+  -webkit-filter: brightness(0.8);
 }
