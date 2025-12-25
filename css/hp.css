@@ -9,8 +9,7 @@
     height: auto;
     margin: 0;
     padding: 0 16px;
-  }
-
+}
   /* home */
   .containersatu {
     flex-direction: column;
@@ -45,14 +44,17 @@
     left: 0;
     margin-top: 30px;
   }
-
-  /* icon kanan */
-  .icons {
-    position: fixed;
-    right: 10px;
-    gap: 15px;
+  .icons{
+  position: ;
+  top: 50%;
+  right: 16px;  
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 1000;
+  max-width: 40px;
   }
-
   /* user */
   .bg {
     height: auto;
@@ -63,7 +65,7 @@
     height: 85px;
     flex-direction: column;
     left: 0;
-    margin-top: 100px;
+    margin-top: 400px;
     padding: 20px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -96,7 +98,7 @@
   /* karya */
   .containertiga {
     height: auto;
-    margin-top: 300px;
+    margin-top: 400px;
   }
   .website h2 {
     font-size: 26px;
@@ -139,9 +141,12 @@
     top: 0;
   }
   /* skilldua */
+  .containerlima{
+    margin-top: 320px;
+  }
   .skilldua img {
     width: 140px;
-    margin-top: 40px;
+    margin-top: 70px;
   }
   .texttiga {
     font-size: 13px;
@@ -150,6 +155,6 @@
   /* kontak */
   .contact-container {
     padding: 40px 20px;
-    margin-top: -90px;
+    margin-top: -120px;
   }
 }
