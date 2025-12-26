@@ -16,8 +16,8 @@
     color: white;
     cursor: pointer;
 }
-.icons{
-    display: none !important;
+.icons {
+  display: none !important;
 }
   /* home */
   .containersatu {
@@ -71,7 +71,7 @@
   /* karya*/
   .containertiga {
     height: auto;
-    margin-top: 140px;
+    margin-top: 540px;
   }
   .gambar img {
     width: 420px;

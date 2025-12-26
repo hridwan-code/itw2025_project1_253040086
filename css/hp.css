@@ -44,17 +44,6 @@
     left: 0;
     margin-top: 30px;
   }
-  .icons{
-  position: ;
-  top: 50%;
-  right: 16px;  
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  z-index: 1000;
-  max-width: 40px;
-  }
   /* user */
   .bg {
     height: auto;
@@ -98,11 +87,11 @@
   /* karya */
   .containertiga {
     height: auto;
-    margin-top: 400px;
+    margin-top: 320px;
   }
   .website h2 {
     font-size: 26px;
-    display: absolute;
+    position: relative;
     top: 20px;
   }
   .gambar img {
@@ -115,6 +104,7 @@
     padding: 0 10px;
   }
 
+  
   /* skill */
   .containerempat {
     margin-top: 150px;

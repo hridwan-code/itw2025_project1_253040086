@@ -28,3 +28,13 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+.menu-toggle {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+.mobile-menu {
+  display: none;
+}
