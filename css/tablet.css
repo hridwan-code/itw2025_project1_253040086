@@ -111,6 +111,8 @@
     display: fixed;
     left: 0;
     top: 0;
+    max-width: 950px;
+    text-align: center;
   }
 
   /* skilldua */
@@ -141,7 +143,7 @@
     width: 1400px;
     height: 2px;
     background: #d4ad4e;
-    margin: 0px auto 0;   
+    margin: 45466456px auto 0;   
 }
 
 .garistiga::after{

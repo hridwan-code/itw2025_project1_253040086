@@ -1,13 +1,6 @@
-const menuToggle = document.getElementById("menuToggle");
-const mobileMenu = document.getElementById("mobileMenu");
+const burger = document.getElementById("burger");
+const menu = document.getElementById("menu");
 
-menuToggle.addEventListener("click", () => {
-  mobileMenu.classList.toggle("active");
-});
-
-/* auto close */
-document.querySelectorAll("#mobileMenu a").forEach(link => {
-  link.addEventListener("click", () => {
-    mobileMenu.classList.remove("active");
-  });
+burger.addEventListener("click", () => {
+  menu.classList.toggle("active");
 });

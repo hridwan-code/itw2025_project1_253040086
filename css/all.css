@@ -28,13 +28,18 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
-.menu-toggle {
+.menu {
   display: none;
   font-size: 22px;
   cursor: pointer;
   color: white;
 }
+.burger {
+  display: block;
+  cursor: pointer;
+}
 
-.mobile-menu {
-  display: none;
+.burger i {
+  font-size: 19px;
+  line-height: 1;
 }
