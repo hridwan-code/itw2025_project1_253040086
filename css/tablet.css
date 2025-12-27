@@ -10,7 +10,7 @@
     left: auto !important;
     right: auto !important;
   }
-.menu-toggle {
+.menu {
     display: block;
     font-size: 24px;
     color: white;
@@ -48,30 +48,31 @@
     height: 85px;
     flex-direction: column;
     left: 0;
-    margin-top: 400px;
+    margin-top: -250px;
     padding: 20px;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
   }
-
+  .fotokedua{
+    align-self: center;
+  }
   .fotokedua img {
     width: 220px;
   }
 
   .namadua h2 {
     font-size: 34px;
+    text-align: center;
+    color: #d4ad4e;
   }
   .namadua p {
-    font-size: 16px;
-    max-width: 650px;
+    font-size: 19px;
+    max-width: 850px;
+    text-align: center;
 }
   /* karya*/
   .containertiga {
     height: auto;
-    margin-top: 540px;
+    margin-top: -410px;
   }
   .gambar img {
     width: 420px;
@@ -126,4 +127,28 @@
   .contact-container {
     padding: 60px 50px;
   }
+
+  /* garis */
+.garis::after{
+    content: "";
+    width: 1400px;
+    height: 2px;
+    background: #d4ad4e;
+    margin: 0px auto 0;   
+}
+.garisdua::after{
+    content: "";
+    width: 1400px;
+    height: 2px;
+    background: #d4ad4e;
+    margin: 0px auto 0;   
+}
+
+.garistiga::after{
+    content: "";
+    width: 1400px;
+    height: 2px;
+    background: #d4ad4e;
+    margin: -120px auto 0;   
+}
 }

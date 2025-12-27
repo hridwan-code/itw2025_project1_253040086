@@ -54,14 +54,10 @@
     height: 85px;
     flex-direction: column;
     left: 0;
-    margin-top: 400px;
+    margin-top: -250px;
     padding: 20px;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-  }
+}
   .fotokedua {
     align-self: center;
   }
@@ -148,3 +144,22 @@
     margin-top: -120px;
   }
 }
+/* hamburger */
+.burger{
+  font-size: 20px;
+}
+
+/* garis */
+.garisdua{
+    padding-bottom: 0;    
+    margin-bottom: 0;      
+    position: relative;
+}
+.garisdua::after{
+    content: "";
+    width: 1400px;
+    height: 2px;
+    background: #d4ad4e;
+    margin: 50px auto 0;   
+}
+

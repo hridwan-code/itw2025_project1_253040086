@@ -1,0 +1,69 @@
+.garis {
+    padding-bottom: 0;    
+    margin-bottom: 0;      
+    position: relative;
+}
+.garis::after {
+    content: "";
+    width: 1400px;
+    height: 2px;
+    background: #d4ad4e;
+    display: block;
+    margin: 80px auto 0;     
+}
+
+.garisdua{
+    padding-bottom: 0;    
+    margin-bottom: 0;      
+    position: relative;
+}
+.garisdua::after {
+    content: "";
+    width: 1400px;
+    height: 2px;
+    background: #d4ad4e;
+    display: block;
+    margin: 30px auto 0;     
+}
+
+.garistiga{
+    padding-bottom: 0;    
+    margin-bottom: 0;      
+    position: relative;
+}
+.garistiga::after {
+    content: "";
+    width: 1400px;
+    height: 2px;
+    background: #d4ad4e;
+    display: block;
+    margin: 450px auto 0;     
+}
+
+.garisempat{
+    padding-bottom: 0;    
+    margin-bottom: 0;      
+    position: relative;
+}
+.garisempat::after {
+    content: "";
+    width: 1400px;
+    height: 2px;
+    background: #d4ad4e;
+    display: block;
+    margin: 90px auto 0;     
+}
+
+.garislima{
+    padding-bottom: 0;    
+    margin-bottom: 0;      
+    position: relative;
+}
+.garislima::after {
+    content: "";
+    width: 1400px;
+    height: 2px;
+    background: #d4ad4e;
+    display: block;
+    margin: 30px auto 0;     
+}
