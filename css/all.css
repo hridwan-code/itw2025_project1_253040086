@@ -1,12 +1,11 @@
+* {
+  scroll-behavior: smooth;
+}
+
 /* bg */
 body {
   background: #053107;
   background: linear-gradient(to right, #0f0f0f, #2b2b2b);
-
-}
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 80px;
 }
 section {
   scroll-margin-top: 100px;
@@ -23,8 +22,9 @@ a,
 i {
   pointer-events: auto !important;
 }
-/* atur supaya gak melebar melebihi layar */
-html, body {
+/* biar gak melebihi layar */
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }

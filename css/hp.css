@@ -139,9 +139,14 @@
     padding: 0 10px;
   }
   /* kontak */
+  .kontak-wadah{
+    padding: 0;
+  }
   .kontak-form {
-    padding: 40px 20px;
+    padding: 60px 20px;
     margin-top: 105px;
+    margin-bottom: 105px;
+    
   }
 /* hamburger */
 .burger{

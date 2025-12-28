@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .kontak-wadah {
   min-height: 10vh;
   padding: 100px 2px;
