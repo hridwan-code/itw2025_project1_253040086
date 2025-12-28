@@ -2,4 +2,12 @@
   .burger {
     display: none;
   }
+
+  /* garis */
+  .garisdua{
+    padding-bottom: 0;    
+    margin-bottom: 0;      
+    position: relative;
+    top: 40px;
+}
 }

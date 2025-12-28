@@ -13,7 +13,7 @@
   /* home */
   .containersatu {
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 150px;
     text-align: center;
   }
   .nama {
@@ -54,7 +54,7 @@
     height: 85px;
     flex-direction: column;
     left: 0;
-    margin-top: -390px;
+    margin-top: 480px;
     padding: 20px;
     border-radius: 20px;
 }
@@ -83,7 +83,7 @@
   /* karya */
   .containertiga {
     height: auto;
-    margin-top: -310px;
+    margin-top: 580px;
   }
   .website h2 {
     font-size: 26px;
@@ -103,7 +103,7 @@
   
   /* skill */
   .containerempat {
-    margin-top: -520px;
+    margin-top: 360px;
   }
   .skill {
     grid-template-columns: 1fr;
@@ -128,7 +128,7 @@
   }
   /* skilldua */
   .containerlima{
-    margin-top: -320px;
+    margin-top: 440px;
   }
   .skilldua img {
     width: 140px;
@@ -139,40 +139,14 @@
     padding: 0 10px;
   }
   /* kontak */
-  .contact-container {
+  .kontak-form {
     padding: 40px 20px;
-    margin-top: -120px;
+    margin-top: 105px;
   }
-}
 /* hamburger */
 .burger{
   font-size: 20px;
 }
-
-/* garis */
-.garisdua{
-    padding-bottom: 0;    
-    margin-bottom: 0;      
-    position: relative;
-}
-.garisdua::after{
-    content: "";
-    width: 1400px;
-    height: 2px;
-    background: #d4ad4e;
-    margin: 50px auto 0;   
 }
 
-.garistiga{
-    padding-bottom: 0;    
-    margin-bottom: 0;      
-    position: relative;
-}
-.garistiga::after{
-    content: "";
-    width: 1400px;
-    height: 2px;
-    background: #d4ad4e;
-    margin: -150px auto 15000px;   
-}
 

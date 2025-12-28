@@ -1,13 +1,13 @@
-.contact-section {
+.kontak-wadah {
   min-height: 10vh;
-  padding: 100px 20px;
+  padding: 100px 2px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -280px;
+  margin-top: 250px;
 }
 
-.contact-container {
+.kontak-form {
   width: 100%;
   max-width: 900px;
   background: rgba(255, 255, 255, 0.05);
@@ -17,26 +17,26 @@
   text-align: center;
 }
 
-.contact-container h2 {
+.kontak-form h2 {
   margin-bottom: 10px;
   color: #d4ad4e;
   font-family: rowdies, serif;
 }
 
-.contact-container p {
+.kontak-form p {
   font-size: 14px;
   margin-bottom: 25px;
   color: #cbd5e1;
 }
 
-.contact-form {
+.kontak-text {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.contact-form input,
-.contact-form textarea {
+.kontak-text input,
+.kontak-text textarea {
   padding: 12px 20px;
   border-radius: 10px;
   border: none;
@@ -46,11 +46,11 @@
   resize: none;
 }
 
-.contact-form textarea {
+.kontak-text textarea {
   min-height: 120px;
 }
 
-.contact-form button {
+.kontak-text button {
   padding: 12px;
   border-radius: 10px;
   border: none;
@@ -61,7 +61,7 @@
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.contact-form button:hover {
+.kontak-text button:hover {
   transform: translateY(-2px);
   opacity: 0.9;
 }
