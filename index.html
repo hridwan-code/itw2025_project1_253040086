@@ -17,11 +17,14 @@
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/hp.css">
     <link rel="stylesheet" href="css/animasi.css">
+    <!-- sosmed icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <!-- media -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
@@ -43,15 +46,18 @@
         </div>
       </div>
     </nav>
+    <!-- hamburger -->
 <div class="menu" id="Menu">
-  <a href="#home"><i class="fa-solid fa-house"></i> Home</a>
-  <a href="#user"><i class="fa-solid fa-user"></i> About</a>
-  <a href="#projek"><i class="fa-solid fa-folder-open"></i> Project</a>
-  <a href="#skill"><i class="fa-solid fa-tools"></i> Skill</a>
-  <a href="#skilldua"><i class="fa-solid fa-star"></i> Creation</a>
-  <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+  <a href="#home"> Profil</a>
+  <a href="#user"> User</a>
+  <a href="#projek"> Karya</a>
+  <a href="#skill"> Skill</a>
+  <a href="#skilldua"> Creations</a>
+  <a href="#contact"> Contact</a>
 </div>
-          <!-- profil -->
+<div id="Overlay"></div>
+
+    <!-- profil -->
     <div class="container">
       <div id="home"></div> 
       <div class="containersatu">
@@ -99,9 +105,9 @@
           </div>
         </div>
       </div>
-<!-- profil akhir -->
+    <!-- profil akhir -->
 
-      <!-- user -->
+    <!-- user -->
       <div class="bg">
         <div class="containerdua">
           <div class="fotokedua">
@@ -116,9 +122,9 @@
           </div>
         </div>
       </div>
-      <!-- user akhir -->
+    <!-- user akhir -->
 
-      <!-- karya -->
+    <!-- karya -->
       <div class="containertiga">
               <div id="projek"></div>  
         <div class="projek">
@@ -133,9 +139,9 @@
           </div>
         </div>
       </div>
-      <!-- karya akhir -->
+    <!-- karya akhir -->
 
-      <!-- skill -->
+    <!-- skill -->
       <div class="containerempat">
                   <div id="skill"></div>
         <div class="skill">
@@ -151,9 +157,9 @@
             karakter dan aset 2D.</p>
         </div>
       </div>
-      <!-- skill akhir -->
+    <!-- skill akhir -->
 
-      <!-- skilldua -->
+    <!-- skilldua -->
       <div class="containerlima">
               <div id="skilldua"></div>
         <div 
@@ -168,9 +174,9 @@
         <div class="texttiga">
         <p>Selain menggunakan media digital, saya tetap menerapkan proses menggambar tradisional sebagai dasar pengembangan visual. Pendekatan ini membantu melatih kemampuan observasi, pemahaman bentuk, serta kontrol nilai gelap-terang, yang menjadi fondasi penting dalam menghasilkan karya desain digital yang lebih akurat dan berkarakter.</p>
         </div>
-      <!-- skilldua akhir -->
+    <!-- skilldua akhir -->
 
-      <!-- kontak -->
+    <!-- kontak -->
 <section id="contact" class="kontak-wadah">
   <div class="kontak-form">
               <div id="contact"></div>
@@ -183,9 +189,8 @@
       <button type="submit">Submit</button>
     </form>
   </div>
-<section class="kontak-wadah" id="contact"></section>
 </section>
-      <!-- kontak akhir -->
+    <!-- kontak akhir -->
 
 
     </div>
@@ -193,6 +198,8 @@
     <script>
     AOS.init();
     </script>
-    <script src="animasi.js"></script>
+    <script 
+    src="js/animasi.js">
+    </script>
   </body>
 </html>

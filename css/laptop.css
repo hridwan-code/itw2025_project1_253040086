@@ -10,4 +10,10 @@
     position: relative;
     top: 40px;
 }
+  .burger {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
 }
