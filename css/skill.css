@@ -2,6 +2,7 @@
   scroll-margin-top: 135px;
 }
 
+/* container */
 .containerempat {
   margin-top: 780px;
 }
@@ -36,6 +37,8 @@
   left: 230px;
   color: #f8fafc;
 }
+
+/* bagian gambar */
 .skill {
   display: grid;
   gap: 50px;

@@ -1,11 +1,11 @@
 #skilldua{
   scroll-margin-top: 100px;
 }
-
-
+/* container */
 .containerlima {
   margin-top: 355px;
 }
+
 .textdua h2 {
   font-size: 40px;
   font-weight: 900;
@@ -26,10 +26,12 @@
   font-family: merriweather, serif;
   margin: 0 auto;
 }
+
+/* bagian gambar */
 .skilldua {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 0;
   flex-wrap: wrap;
 }
 .skilldua img {

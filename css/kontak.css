@@ -2,7 +2,7 @@
   scroll-margin-top: -20px;
 }
 
-
+/* container */
 .kontak-wadah {
   min-height: 10vh;
   padding: 100px 2px;
@@ -12,6 +12,7 @@
   margin-top: 250px;
 }
 
+/* text */
 .kontak-form {
   width: 100%;
   max-width: 900px;
@@ -34,6 +35,7 @@
   color: #cbd5e1;
 }
 
+/* jarak antar form */
 .kontak-text {
   display: flex;
   flex-direction: column;

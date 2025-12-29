@@ -14,6 +14,7 @@
   align-items: center;
   margin-top: 150px;
 }
+
 /* nama */
 .nama {
   flex: 1;
@@ -39,6 +40,7 @@
   color:  #d4ad4e;
   font-family: rowdies, serif;
 }
+
 /* nama akhir */
 /* bagian bawah nama */
 .tag  {
@@ -52,6 +54,7 @@
   font-size: 40px;
   font-family: rowdies, serif;
 }
+
 /* bagian bawah nama akhir */
 /* foto */
 .foto {
@@ -70,6 +73,8 @@
   box-shadow: 0 0px 10px #d4ad4e;
 }
 /* foto akhir */
+
+
 /* icon sosial media */
 .icons {
   position: fixed;
