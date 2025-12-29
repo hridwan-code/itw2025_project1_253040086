@@ -161,10 +161,11 @@
   top: 0;             
 }
 #Menu a {
-  color: white;
+  color: #d4ad4e;
   font-size: 18px;
   margin: 8px 0;
   text-decoration: none;
+  font-family: rowdies, sans-serif;
 }
 
 #Overlay {
