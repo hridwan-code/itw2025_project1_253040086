@@ -11,9 +11,13 @@
     padding: 0 16px;
 }
   /* home */
+  #home{
+    scroll-margin-top: 100px;
+  } 
+
   .containersatu {
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 180px;
     text-align: center;
   }
   .nama {
@@ -45,6 +49,9 @@
     margin-top: 30px;
   }
   /* user */
+  #user{
+    scroll-margin-top: 170px;
+  }
   .bg {
     height: auto;
     top: 0;
@@ -81,6 +88,9 @@
   }
 
   /* karya */
+  #projek{
+  scroll-margin-top: 230px;
+  }
   .containertiga {
     height: auto;
     margin-top: 390px;
@@ -102,6 +112,9 @@
 
   
   /* skill */
+  #skill{
+    scroll-margin-top: 70px;
+  }
   .containerempat {
     margin-top: 160px;
   }
@@ -128,11 +141,14 @@
     font-size: 16px;
   }
   /* skilldua */
+  #skilldua{
+  scroll-margin-top: 100px;
+  }
   .containerlima{
     margin-top: 150px;
   }
   .skilldua img {
-    width: 140px;
+    width: 190px;
     margin-top: 70px;
   }
   .texttiga {
@@ -140,6 +156,9 @@
     padding: 0 10px;
   }
   /* kontak */
+  #contact{
+  scroll-margin-top: 285px;
+  }
   .kontak-wadah{
     padding: 0;
   }
